@@ -1,10 +1,14 @@
 ul.a{
-    list-style-image: url('pie_icon.gif');
+    list-style-image: url('images/pie_icon.gif');
 }
 body{
-   background-image: url('silverware.jpg');
-   background-color: #404040 ;
+   background-image: url('images/silverware.jpg');
+   background-color: #ffffff ;
+   color: #404040;
+   font-size: 11pt;
+   font-family: Georgia,Garamond, serif;
 }
+
 div.a{
   text-align: center;
   font-size: 22pt;
@@ -35,12 +39,10 @@ div.bb{
 }
 .st{
    text-decoration: line-through;
-   display: none
-}
-
-.st::after{
-   content: 'pie'
 }
 .cc{
    font-weight: bold; 
+}
+pre{
+   font-family: monospace;
 }
